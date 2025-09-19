@@ -1,11 +1,12 @@
 .card {
     border: 2px solid red;
-    border-radius: 8%;
-    width: 300px;
+    border-radius: 6%;
+    width: 350px;
     display: inline-flex;
-    margin: 50px;
-    height: 330px;
+    margin: 20px;
+    height: 550px;
     transition-duration: 0.5s;
+    
 }
 
 .card:hover {
@@ -15,4 +16,8 @@
 
 .card-body {
     color: darkred;
+}
+
+img {
+    height: 350px;
 }
