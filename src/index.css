@@ -1,0 +1,18 @@
+.card {
+    border: 2px solid red;
+    border-radius: 8%;
+    width: 300px;
+    display: inline-flex;
+    margin: 50px;
+    height: 330px;
+    transition-duration: 0.5s;
+}
+
+.card:hover {
+    transform: scale(1.2) translate(10px);
+    z-index: 1;
+}
+
+.card-body {
+    color: darkred;
+}
