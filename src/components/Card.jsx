@@ -7,7 +7,7 @@ const Card = (props) => {
         <h4>{props.location}</h4>
         <h5>{props.date}</h5>
         <h5>{props.time}</h5>
-        <a href={props.details} className='details'>More details</a>
+        <a href={props.details} className='details'>More details . . .</a>
       </div>
 
     </div>
