@@ -1,12 +1,20 @@
+.flex-container {
+    display:inline-flex;
+    align-items: center;
+}
+
+.logo {
+    height: 150px;
+}
+
 .card {
-    border: 2px solid red;
     border-radius: 6%;
-    width: 350px;
+    width: 250px;
     display: inline-flex;
-    margin: 20px;
+    margin: 50px;
     height: 550px;
     transition-duration: 0.5s;
-    
+    font-family: Tahoma, sans-serif;
 }
 
 .card:hover {
@@ -15,9 +23,45 @@
 }
 
 .card-body {
-    color: darkred;
+    color: Blue;
+    flex: 1 1 auto;
+    border-color: red;
 }
 
 img {
     height: 350px;
+}
+
+.title-header{
+    color: rgb(57, 28, 225);
+    margin-left: 20px;
+    letter-spacing: 4px;
+    text-shadow: 2px 2px 4px rgb(225, 35, 243), -2px -2px 4px rgb(206, 241, 11);    ;
+}
+
+.event-header {
+    letter-spacing: 2px;
+    color:rgb(16, 4, 4);
+    text-shadow: 2px 2px 4px rgb(243, 189, 28), -2px -2px 4px lightblue;    ;
+}
+h3 {
+    color: rgb(6, 19, 136);
+    letter-spacing: 1px;
+    text-shadow: 2px 2px 4px rgb(243, 189, 28), -2px -2px 4px lightblue;    ;
+}
+
+h4 {
+    margin: 8px;
+    color: brown;
+}
+
+h5,
+h6 {
+    margin: 5px;
+    color: rgb(236, 4, 93);
+}
+
+a {
+    font-style: italic;
+    text-decoration: none;
 }
