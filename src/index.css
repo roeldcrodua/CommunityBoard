@@ -25,7 +25,6 @@
 .card-body {
     color: Blue;
     flex: 1 1 auto;
-    border-color: red;
 }
 
 img {
@@ -44,24 +43,23 @@ img {
     color:rgb(16, 4, 4);
     text-shadow: 2px 2px 4px rgb(243, 189, 28), -2px -2px 4px lightblue;    ;
 }
-h3 {
+.card-title {
     color: rgb(6, 19, 136);
     letter-spacing: 1px;
     text-shadow: 2px 2px 4px rgb(243, 189, 28), -2px -2px 4px lightblue;    ;
 }
 
-h4 {
+.location {
     margin: 8px;
     color: brown;
 }
 
-h5,
-h6 {
+.date, .time {
     margin: 5px;
     color: rgb(236, 4, 93);
 }
 
-a {
+.details {
     font-style: italic;
     text-decoration: none;
 }
