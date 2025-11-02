@@ -1,5 +1,7 @@
 # Web Development Project 1 - Village of Palm Springs Community Board
 
+https://roeldcrodua.github.io/CommunityBoard/
+
 Submitted by: Roel Crodua
 
 * This web app: This project focus most of events or resources board for my community. The board should display some information about the event or resource. This will apply the use of REACT library focusing on using props and className.
